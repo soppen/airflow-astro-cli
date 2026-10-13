@@ -2,7 +2,8 @@
 	"name": "Python with ClickHouse",
 	"dockerComposeFile": "compose.yml",
 	"service": "app",
-	"workspaceFolder": "/workspaces/test-polars",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	//"workspaceFolder": "/workspaces/test-polars",
   	"features": {
     	"ghcr.io/devcontainers-extra/features/uv":{},
 		//"ghcr.io/astronomer/devcontainer-features/astro-cli:1": {}
