@@ -1,0 +1,9 @@
+[project]
+name = "airflow"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "clickhouse-connect>=1.11.0",
+    "pandas>=3.1.0",
+    "polars>=2.1.0",
+]
